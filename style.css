@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:monospace;
+}
+.container{
+    background-color: rgb(30, 29, 29);
+    height: 100vh;
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container p{
+    position: absolute;
+    top: 140px;
+    font-size: 90px;
+    font-weight: bolder;
+}
+.container button{
+    padding: 20px;
+    font-size: xx-large;
+    color: rgb(30, 29, 29);
+    border-radius: 33px;
+    border: 3px solid whitesmoke;
+    box-shadow: inset 0 0 15px rgb(30, 29, 29);
+    transition: transform .2s;
+    margin-top: 40px;
+}
+#stop{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#play{
+    padding: 50px;
+    margin-top: 60px;
+
+}
+.a{
+    font-size: 100px;
+}
+.btn :hover{
+    transform: scale(1.1);
+    box-shadow: inset 0 0 20px rgb(30, 29, 29);
+    cursor: pointer;
+}
+#a:hover{
+    transform: none;
+    box-shadow: none;
+}
